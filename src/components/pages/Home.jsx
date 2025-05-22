@@ -34,13 +34,13 @@ export default function Home() {
         }} className='min-h-[90vh] text-white font-semibold text-4xl'
         >
           <SwiperSlide>
-            <BgImage id={'section'} title={'Derecho Canabico'} introText={'Fijo que sales libre hoy, no escuches a los ternas Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla eu diam est.'} image={'src/assets/image1.jpg'}/>
+            <BgImage id={'section'} title={'Derecho Canabico'} introText={'Fijo que sales libre hoy, no escuches a los ternas Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla eu diam est.'} image={'assets/image1.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <BgImage id={'section'} title={'Asesoria  Legal  en  Cusco'} introText={'Cienporciento de resultados y cero porciento de etica Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada.'} image={'src/assets/image1.jpg'}/>
+            <BgImage id={'section'} title={'Asesoria  Legal  en  Cusco'} introText={'Cienporciento de resultados y cero porciento de etica Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada.'} image={'assets/image1.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <BgImage id={'section'} title={'Derecho Animal'} introText={'Cienporciento de resultados y cero porciento de etica Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada.'} image={'src/assets/image1.jpg'}/>
+            <BgImage id={'section'} title={'Derecho Animal'} introText={'Cienporciento de resultados y cero porciento de etica Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada.'} image={'assets/image1.jpg'}/>
           </SwiperSlide>
         </Swiper>
 
