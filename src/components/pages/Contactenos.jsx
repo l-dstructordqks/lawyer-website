@@ -5,7 +5,7 @@ import BgImage from './BgImage'
 export default function Contactenos() {
   return (
     <div>
-      <BgImage id={'section'} title={'Contacto'} image={'src/assets/contacto.jpg'}/>
+      <BgImage id={'section'} title={'Contacto'} image={'/assets/contacto.jpg'}/>
 
       <div id='start' className='bg-gray-50 px-9 sm:px-14 md:px-28 py-20 text-justify mx-auto text-sm sm:text-base md:text-xl font-light min-h-[60vh]'>
         <div className='max-w-[1100px] mx-auto'>

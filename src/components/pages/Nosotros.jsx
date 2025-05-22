@@ -4,7 +4,7 @@ import BgImage from './BgImage'
 export default function Nosotros() {
   return (
     <div>
-      <BgImage id={'section'} title={'Nosotros'} image={'src/assets/nosotros1.jpg'}/>
+      <BgImage id={'section'} title={'Nosotros'} image={'/assets/nosotros1.jpg'}/>
 
       <div id='start' className='bg-gray-50 px-9 sm:px-14 md:px-28 py-10 text-justify mx-auto text-sm sm:text-base md:text-xl font-light min-h-[60vh]'>
         <div className='max-w-[1100px] mx-auto'>

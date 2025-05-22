@@ -7,7 +7,7 @@ export default function Servicios( props ) {
   const { showService, serviceArr } = props;
   return (
     <div className='bg-gray-50'>
-      <BgImage id={'section'} title={'Servicios'} image={'src/assets/servicios2.webp'}/>
+      <BgImage id={'section'} title={'Servicios'} image={'/assets/servicios2.webp'}/>
 
       <div id='start' className='bg-gray-50 px-9 sm:px-14 md:px-28 py-10 text-justify mx-auto text-sm sm:text-base md:text-xl font-light min-h-[50vh]'>
         <div className='max-w-[1100px] mx-auto'>
@@ -21,12 +21,12 @@ export default function Servicios( props ) {
         <h2 className='text-nuetral-900 text-left uppercase sm:text-xl md:text-2xl font-semibold mx-auto pb-10'>Sectores Atendidos</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 place-items-center sm:place-items-stretch'>
             
-          <ServiceCard id={'1'} func={showService} title={'registro de marca'} description={'especializados en cualquier tipo de solicitud medica de consumo no restrictivo de la planta canabis'} image={'/src/assets/servicio01.jpg'}/>
-          <ServiceCard id={'2'} func={showService} title={'derecho canabico'} description={'especializados en cualquier tipo de solicitud medica de consumo no restrictivo de la planta canabis'} image={'/src/assets/servicio02.jpg'}/>
-          <ServiceCard id={'3'} func={showService} title={'comercio exterior y aduanas'} description={'Nuestro equipo brinda asesoría en operaciones de compraventa internacional, importación y exportación de bienes'} image={'/src/assets/servicio03.png'}/>
-          <ServiceCard id={'4'} func={showService} title={'laboral y contractual'} description={'Nuestro especializados en cualquier tipo de solicitud consumo no restrictivo de exportación de bienes'} image={'/src/assets/servicio04.webp'}/>
-          <ServiceCard id={'5'} func={showService} title={'visados y extrangeria'} description={'Nuestro especializados en cualquier tipo de solicitud consumo no restrictivo de exportación de bienes'} image={'/src/assets/servicio05.jpeg'}/>
-          <ServiceCard id={'6'} func={showService} title={'licencias y permisos'} description={'Nuestro especializados en cualquier tipo de solicitud consumo no restrictivo de exportación de bienes'} image={'/src/assets/servicio06.avif'}/>
+          <ServiceCard id={'1'} func={showService} title={'registro de marca'} description={'especializados en cualquier tipo de solicitud medica de consumo no restrictivo de la planta canabis'} image={'/assets/servicio01.jpg'}/>
+          <ServiceCard id={'2'} func={showService} title={'derecho canabico'} description={'especializados en cualquier tipo de solicitud medica de consumo no restrictivo de la planta canabis'} image={'/assets/servicio02.jpg'}/>
+          <ServiceCard id={'3'} func={showService} title={'comercio exterior y aduanas'} description={'Nuestro equipo brinda asesoría en operaciones de compraventa internacional, importación y exportación de bienes'} image={'/assets/servicio03.png'}/>
+          <ServiceCard id={'4'} func={showService} title={'laboral y contractual'} description={'Nuestro especializados en cualquier tipo de solicitud consumo no restrictivo de exportación de bienes'} image={'/assets/servicio04.webp'}/>
+          <ServiceCard id={'5'} func={showService} title={'visados y extrangeria'} description={'Nuestro especializados en cualquier tipo de solicitud consumo no restrictivo de exportación de bienes'} image={'/assets/servicio05.jpeg'}/>
+          <ServiceCard id={'6'} func={showService} title={'licencias y permisos'} description={'Nuestro especializados en cualquier tipo de solicitud consumo no restrictivo de exportación de bienes'} image={'/assets/servicio06.avif'}/>
         </div>
       </div>
 
