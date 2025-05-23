@@ -9,13 +9,13 @@ export default function Footer() {
 
             
             <a href="https://www.linkedin.com/" target='_blank'>
-              <i class="fa-brands fa-linkedin text-white fa-2x"></i>
+              <i className='fa-brands fa-linkedin text-white fa-2x'></i>
             </a>
             <a href="https://www.facebook.com/" target='_blank'>
-              <i class="fa-brands fa-facebook text-white fa-2x"></i>
+              <i className='fa-brands fa-facebook text-white fa-2x'></i>
             </a>
             <a href="https://www.instagram.com/" target='_blank'>
-              <i class="fa-brands fa-instagram text-white fa-2x"></i>
+              <i className='fa-brands fa-instagram text-white fa-2x'></i>
             </a>
         </div>
 

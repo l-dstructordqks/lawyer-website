@@ -31,16 +31,16 @@ export default function Home() {
         }}
         pagination= {{
           clickable: true
-        }} className='min-h-[90vh] text-white font-semibold text-4xl'
+        }} className='min-h-[70vh] text-white font-semibold text-4xl'
         >
           <SwiperSlide>
-            <BgImage id={'section'} title={'Derecho Canabico'} introText={'Fijo que sales libre hoy, no escuches a los ternas Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla eu diam est.'} image={'/assets/image1.jpg'}/>
+            <BgImage id={'section'} title={'Derecho Canabico'} introText={'Fijo que sales libre hoy, no escuches a los ternas Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla eu diam est.'} image={'/image1.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <BgImage id={'section'} title={'Asesoria  Legal  en  Cusco'} introText={'Cienporciento de resultados y cero porciento de etica Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada.'} image={'/assets/image1.jpg'}/>
+            <BgImage id={'section'} title={'Asesoria  Legal  en  Cusco'} introText={'Cienporciento de resultados y cero porciento de etica Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada.'} image={'/image1.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <BgImage id={'section'} title={'Derecho Animal'} introText={'Cienporciento de resultados y cero porciento de etica Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada.'} image={'/assets/image1.jpg'}/>
+            <BgImage id={'section'} title={'Derecho Animal'} introText={'Cienporciento de resultados y cero porciento de etica Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada.'} image={'/image1.jpg'}/>
           </SwiperSlide>
         </Swiper>
 
@@ -58,23 +58,23 @@ export default function Home() {
 
       <div className='z-8 min-h-[40vh] absolute w-full bg-black/70 flex items-center justify-center'>
         <p className='text-justify px-15 text-white text-xl font-normal sm:max-w-[70%]'>
-        <i class="fa-solid fa-quote-left px-3 fa-sm"></i>
+        <i className='fa-solid fa-quote-left px-3 fa-sm'></i>
         El estudio destaca entre sus competidores por su amplia experiencia. Cuentan con un enfoque comercial, entienden y aplican conocimientos jurídicos a los negocios.
-        <i class="fa-solid fa-quote-right px-3 fa-sm"></i>
+        <i className='fa-solid fa-quote-right px-3 fa-sm'></i>
       </p>
       </div>
-      <div className='min-h-[40vh] relative w-[100vw] bg-[url(assets/home.jpg)] bg-cover bg-center content-center'></div>
+      <div className='min-h-[40vh] relative w-[100vw] bg-[url(/home.jpg)] bg-cover bg-center content-center'></div>
 
       <div className='bg-gray-50 text-sm px-9 sm:px-14 md:px-28 py-20 pt-30 text-justify mx-auto md:text-xl font-light'>
         <div className='max-w-[1100px] mx-auto flex flex-col sm:grid sm:grid-cols-2 gap-7'>
           <div className='text-center'>
-            <i class="fa-regular fa-handshake fa-3x text-nuetral-900"></i>
-            <h2 className='text-nuetral-900 uppercase sm:text-xl md:text-2xl font-semibold mx-auto pb-9'>Mision</h2>
+            <i className='fa-regular fa-handshake fa-3x text-neutral-900'></i>
+            <h2 className='text-neutral-900 uppercase sm:text-xl md:text-2xl font-semibold mx-auto pb-9'>Mision</h2>
             <p className='p-2 text-base text-justify'>Nam sollicitudin purus ac eros placerat auctor. Vivamus venenatis viverra dui, id faucibus ligula consectetur eu. Fusce lacinia venenatis sapien. Phasellus euismod erat eu pellentesque scelerisque. Praesent porttitor dapibus arcu et pretium. Maecenas at diam nulla.</p>
           </div>
           <div className='text-center'>
-            <i class="fa-regular fa-eye fa-3x text-nuetral-900"></i>
-            <h2 className='text-nuetral-900 text-center uppercase sm:text-xl md:text-2xl font-semibold mx-auto pb-9'>Vision</h2>
+            <i className='fa-regular fa-eye fa-3x text-neutral-900'></i>
+            <h2 className='text-neutral-900 text-center uppercase sm:text-xl md:text-2xl font-semibold mx-auto pb-9'>Vision</h2>
             <p className='p-2 text-base text-justify'>Nam sollicitudin purus ac eros placerat auctor. Vivamus venenatis viverra dui, id faucibus ligula consectetur eu. Fusce lacinia venenatis sapien. Phasellus euismod erat eu pellentesque scelerisque. Praesent porttitor dapibus arcu et pretium. Maecenas at diam nulla.</p>
           </div>
           
