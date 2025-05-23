@@ -9,6 +9,9 @@ export const SERVICES = {
         experience: [
             'puta',
             'perra'
+        ],
+        image: [
+            '/servicio01.jpg'
         ]
     },
     2: {
@@ -21,6 +24,9 @@ export const SERVICES = {
         experience: [
             'puta',
             'perra'
+        ],
+        image: [
+            '/servicio02.jpg'
         ]
     },
     3: {
@@ -33,6 +39,9 @@ export const SERVICES = {
         experience: [
             'puta',
             'perra'
+        ],
+        image: [
+            '/servicio03.png'
         ]
     },
     4: {
@@ -45,6 +54,9 @@ export const SERVICES = {
         experience: [
             'puta',
             'perra'
+        ],
+        image: [
+            '/servicio04.webp'
         ]
     },
     5: {
@@ -57,6 +69,9 @@ export const SERVICES = {
         experience: [
             'puta',
             'perra'
+        ],
+        image: [
+            '/servicio05.jpeg'
         ]
     },
     6: {
@@ -69,6 +84,9 @@ export const SERVICES = {
         experience: [
             'puta',
             'perra'
+        ],
+        image: [
+            '/servicio06.avif'
         ]
     }
 }

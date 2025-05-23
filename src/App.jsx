@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react'
 import { Routes, Route } from 'react-router'
 
 
+//For make every route show from the beguining not from the scroll height
+import ScrollToTop from './components/ScrollToTop.jsx'
+
 //import Navbar from './components/Navbar'
 import Home from './components/pages/Home.jsx'
 import Nosotros from './components/pages/Nosotros.jsx'
@@ -30,16 +33,20 @@ function App() {
   useEffect(() => {
     if(scrollToService && serviceArr) {
       const section = document.getElementById('service_section')
-      if(section) {
-        section.scrollIntoView({ behavior: 'smooth' })
-      }
-      // reset the flag TO STUDY
-      setScrollToService(false)
+      //trying to fix the effect on movil size
+      setTimeout(() => {
+        if(section) {
+          section.scrollIntoView({ behavior: 'smooth' })
+        }
+        // reset the flag TO STUDY
+        setScrollToService(false)
+      }, 100)
     }
   }, [serviceArr, scrollToService])
 
   return (
     <>
+      <ScrollToTop />
       <NavBarGa />
       <main>
         <Routes>
