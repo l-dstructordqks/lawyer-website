@@ -10,7 +10,7 @@ export default function ServiceCard(props) {
             <h3 className='pt-3 pb-2 text-base md:text-lg font-semibold text-gray-900 text-gray-900 uppercase'>
                 {title}
             </h3>
-            <p className='py-2 px-3 text-justify text-gray-700 text-xs md:text-sm'> 
+            <p className='py-2 px-3 md:px-6 text-justify text-gray-700 text-sm md:text-base'> 
                 {description} 
             </p>
         </div>

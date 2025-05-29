@@ -35,13 +35,13 @@ export default function Home() {
         }} className='min-h-[70vh] text-white font-semibold'
         >
           <SwiperSlide>
-            <BgImage id={'section'} title={'Derecho Canabico'} introText={'Fijo que sales libre hoy, no escuches a los ternas Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla eu diam est.'} image={'/image1.jpg'}/>
+            <BgImage id={'section'} title={'Asesoria legal Integral en Cusco'} introText={'Con un enfoque personalizado en cada uno de nuestros clientes, ofrecemos soluciones jurídicas completas, adaptadas a las necesidades específicas de cada caso.'} image={'/image1.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <BgImage id={'section'} title={'Asesoria  Legal  en  Cusco'} introText={'Cienporciento de resultados y cero porciento de etica Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada.'} image={'/image1.jpg'}/>
+            <BgImage id={'section'} title={'Defensa Jurídica Transparente y Eficaz'} introText={'Nos caracterizamos por actuar con total transparencia, explicando cada paso del proceso legal de forma clara y comprensible. Nuestro compromiso es ofrecer una defensa sólida.'} image={'/slider02.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <BgImage id={'section'} title={'Derecho Animal'} introText={'Cienporciento de resultados y cero porciento de etica Aliquam sodales imperdiet dolor, eu facilisis risus. Quisque at dignissim tellus. Morbi pretium felis scelerisque cursus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada.'} image={'/image1.jpg'}/>
+            <BgImage id={'section'} title={'Compromiso con tus Derechos'} introText={'Tu tranquilidad es nuestra prioridad. Trabajamos con firmeza y empatía para proteger tus intereses, defendiendo tus derechos con responsabilidad, respeto y una atención cercana en todo momento.'} image={'/slider01.jpg'}/>
           </SwiperSlide>
         </Swiper>
 
@@ -52,7 +52,7 @@ export default function Home() {
         <div className='max-w-[1100px] mx-auto'>
           <h2 className='font-bold text-gray-900 uppercase text-xl sm:text-3xl md:text-4xl mx-auto py-2 text-center'>Jusus lujan sideral carrion</h2>
           <hr className='text-gray-900 font-bold' />
-          <p className='px-2 py-9 sm:py-10 text-gray-700 text-sm md:text-base'>Nuestro Estudio se destaca por ofrecer servicios de asesoría legal oportuna con excelencia profesional y absoluta dedicación a sus clientes. Para ello contamos con amplio conocimiento de la legislación nacional y abogados especializados en las diversas áreas del derecho, lo que nos permite analizar los casos y las transacciones desde distintos ángulos, a fin de plantear soluciones que tomen en cuenta todos los posibles riesgos y contingencias a través de un servicio integral, en el que se brinda soluciones legales a problemas específicos, evaluando el contexto en que estos se presentan.
+          <p className='px-2 py-9 sm:py-10 text-gray-700 text-sm md:text-base'>Nuestro Estudio se destaca por ofrecer servicios de asesoría legal oportuna con excelencia profesional y absoluta dedicación a sus clientes. Para ello contamos con amplio conocimiento de la legislación nacional, especializados en las diversas áreas del derecho, lo que nos permite analizar los casos y las transacciones desde distintos ángulos, a fin de plantear soluciones que tomen en cuenta todos los posibles riesgos y contingencias a través de un servicio integral, en el que se brinda soluciones legales a problemas específicos, evaluando el contexto en que estos se presentan.
       </p>
         </div>
       </div>
@@ -71,12 +71,12 @@ export default function Home() {
           <div className='text-center'>
             <i className='fa-regular fa-handshake fa-2x md:fa-3x text-neutral-900'></i>
             <h2 className='text-neutral-900 uppercase text-lg sm:text-xl md:text-2xl font-semibold mx-auto pb-7'>Mision</h2>
-            <p className='p-2 text-justify text-sm md:text-base'>Nam sollicitudin purus ac eros placerat auctor. Vivamus venenatis viverra dui, id faucibus ligula consectetur eu. Fusce lacinia venenatis sapien. Phasellus euismod erat eu pellentesque scelerisque. Praesent porttitor dapibus arcu et pretium. Maecenas at diam nulla.</p>
+            <p className='p-2 text-justify text-sm md:text-base'>Brindar servicios legales de alta calidad, con un enfoque ético, personalizado y eficiente, orientado a la protección de los derechos e intereses de nuestros clientes. Nos comprometemos a ofrecer asesoría y representación jurídica clara, honesta y estratégica, adaptada a las particularidades de cada caso.</p>
           </div>
           <div className='text-center'>
             <i className='fa-regular fa-eye fa-2x md:fa-3x text-neutral-900'></i>
             <h2 className='text-neutral-900 uppercase text-lg sm:text-xl md:text-2xl font-semibold mx-auto pb-7'>Vision</h2>
-            <p className='p-2 text-justify text-sm md:text-base'>Nam sollicitudin purus ac eros placerat auctor. Vivamus venenatis viverra dui, id faucibus ligula consectetur eu. Fusce lacinia venenatis sapien. Phasellus euismod erat eu pellentesque scelerisque. Praesent porttitor dapibus arcu et pretium. Maecenas at diam nulla.</p>
+            <p className='p-2 text-justify text-sm md:text-base'>Ser un referente en el ámbito jurídico por nuestra excelencia profesional, compromiso humano y resultados efectivos. Aspiramos a consolidarnos como un despacho confiable e innovador, reconocido por su integridad, cercanía con el cliente y capacidad para ofrecer soluciones jurídicas integrales en un entorno legal en constante evolución.</p>
           </div>
           
         </div>

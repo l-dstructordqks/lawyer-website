@@ -1,8 +1,30 @@
-import React from 'react'
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api'
+import React, { useRef } from 'react'
+//import { GoogleMap, useJsApiLoader } from '@react-google-maps/api'
 import BgImage from '../BgImage'
+import Map from '../Map'
+
+import emailjs from '@emailjs/browser'
+
+
+
 
 export default function Contactenos() {
+  const form = useRef()
+  const sendEmail = (e) => {
+    e.preventDefault
+
+    emailjs
+      .sendForm('contact_lawyer_service', '__ejs-test-mail-service__', form.current, { publicKey: 'Gqi1IlU4_D8xVNIU-',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!!!')
+        },
+        (error) => {
+          console.log('FAILED :(', error.text)
+        }
+      )
+  }
   return (
     <div>
       <BgImage id={'section'} title={'Contacto'} image={'/contacto.jpg'}/>
@@ -18,7 +40,7 @@ export default function Contactenos() {
 
           <h2 className='text-neutral-900 text-left uppercase text-lg sm:text-xl md:text-2xl font-semibold mx-auto py-2'>Formulario de Contacto</h2>
 
-          <form className='grid grid-cols-2 gap-2 pt-5'>
+          <form ref={form} onSubmit={sendEmail} className='grid grid-cols-2 gap-2 pt-5'>
             <div className='text-base col-span-2 flex flex-col p-2'>
               <label htmlFor="subject">
                 <h2 className='font-medium'>Asunto:</h2>
@@ -71,9 +93,8 @@ export default function Contactenos() {
         <div className='max-w-[1100px] mx-auto pt-10 md:pt-20'>
           <h2 className='text-neutral-900 text-left uppercase text-lg sm:text-xl md:text-2xl font-semibold mx-auto py-2'>Oficinas</h2>
           
-          <div className='p-10'>
-            <img src="/ubication.png" alt="" />
-          </div>
+          <Map/>
+          
         </div>
 
         <div className='max-w-[1100px] mx-auto pt-10 md:pt-20'>
@@ -81,17 +102,22 @@ export default function Contactenos() {
           <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 px-2 py-9 sm:py-10'>
             <div className='flex gap-4 items-center'>
               <i className='fa-brands fa-whatsapp fa-2x'></i>
-              <div>
-                <p>WhatsApp oficial</p>
-                <p>+51 999 999 999</p>
+              <div className='px-2 py-9 sm:py-10 text-gray-700 text-sm md:text-base'>
+                <p className='font-normal'>WhatsApp Oficial</p>
+                <a href="https://wa.me/51951272475?text=VOTAME%20TU%20GAAA" target='_blank'>
+                  <p className='duration-300 hover:font-semibold'>+51 999 999 999</p>
+                </a>
+                
               </div>
             </div>
 
             <div className='flex gap-4 items-center'>
               <i className='fa-regular fa-envelope fa-2x'></i>
-              <div>
-                <p>Correo Corporativo</p>
-                <p>tuabogadito69masna@gmail.com</p>
+              <div className='px-2 py-9 sm:py-10 text-gray-700 text-sm md:text-base'>
+                <p className='font-normal'>Correo Corporativo</p>
+                <a href="mailto:s404990099@gmail.com?subject=HI%20LAWYER!&body=I%20want%20a%20free%20trial">
+                  <p className='duration-300 hover:font-semibold'>tuabogadito69masna@gmail.com</p>
+                </a>
               </div>
             </div>
           </div>

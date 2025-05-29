@@ -23,7 +23,6 @@ function App() {
     let service = generateServicesSection(e.target.id)
     setServiceArr(service)
 
-    //window.location.href = '#service_section'
     //using useEffect to improve the behavior of the scroll
     setScrollToService(true)
   }

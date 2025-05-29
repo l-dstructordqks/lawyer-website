@@ -12,7 +12,7 @@ export default function ServiceSection(props) {
           <div className='bg-gray-50  py-10 md:py-20 text-justify mx-auto font-light min-h-[60vh]'>
             <div className='mx-auto bg-white p-6 rounded-sm shadow-md hover:shadow-lg sticky mt-[-25vh] z-10 max-w-[90vw] md:max-w-[75vw]'>
               <h2 className='text-neutral-900 text-left uppercase text-lg sm:text-xl md:text-2xl font-semibold mx-auto p-2 pt-5'>{serviceArr.title}</h2>
-              <p className='px-2 py-9 sm:py-10 text-gray-700 text-sm md:text-base'>{serviceArr.description}</p>
+              <p className='px-2 py-9 sm:py-10 text-gray-700 text-sm md:text-base' dangerouslySetInnerHTML={{__html: serviceArr.description}}></p>
 
               {serviceArr.experience && (<h2 className='text-neutral-900 text-left uppercase text-md sm:text-lg md:text-xl font-semibold mx-auto p-2'>Experiencia</h2>)}
               
