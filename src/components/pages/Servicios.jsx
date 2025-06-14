@@ -62,7 +62,7 @@ export default function Servicios( props ) {
           Brindamos soluciones legales estratégicas a instituciones clave de Cusco y el Perú, incluyendo:
           </p>
 
-          <div className='grid grid-cols-4 gap-2'>
+          <div className='grid grid-cols-3 md:grid-cols-4 gap-2'>
               <div className='bg-green-800 p-1 max-h-[90px]'>
                 <img src="/logomonteverde.png" alt="" />
               </div>
