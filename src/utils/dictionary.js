@@ -1,0 +1,35 @@
+import {
+    ScaleIcon,
+    BuildingOfficeIcon,
+    ShieldExclamationIcon,
+    LockClosedIcon,
+    DocumentTextIcon,
+    ArrowPathIcon,
+    XCircleIcon,
+    BanknotesIcon,
+    DocumentCheckIcon,
+    IdentificationIcon,
+    UserGroupIcon,
+    ExclamationTriangleIcon,
+    ClipboardDocumentCheckIcon,
+    BriefcaseIcon,
+    ClipboardIcon,
+  } from '@heroicons/react/24/outline'
+
+export const icons = {
+    ScaleIcon,
+    BuildingOfficeIcon,
+    ShieldExclamationIcon,
+    LockClosedIcon,
+    DocumentTextIcon,
+    ArrowPathIcon,
+    XCircleIcon,
+    BanknotesIcon,
+    DocumentCheckIcon,
+    IdentificationIcon,
+    UserGroupIcon,
+    ExclamationTriangleIcon,
+    ClipboardDocumentCheckIcon,
+    BriefcaseIcon,
+    ClipboardIcon
+  }

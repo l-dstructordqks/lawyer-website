@@ -6,7 +6,7 @@ export default function Nosotros() {
     <div className='bg-gray-50'>
       <BgImage id={'section'} title={'Nosotros'} image={'/nosotros1.jpg'}/>
 
-      <div id='start' className='px-9 sm:px-14 md:px-28 py-10 text-justify mx-auto text-sm sm:text-base md:text-xl font-light min-h-[40vh]'>
+      <div className='px-9 sm:px-14 md:px-28 py-10 text-justify mx-auto text-sm sm:text-base md:text-xl font-light min-h-[40vh]'>
         <div className='max-w-[1100px] mx-auto'>
           
           <p className='px-2 py-9 sm:py-10 text-gray-900 text-base md:text-lg font-normal'>En nuestro despacho, creemos que cada cliente merece una atención jurídica cercana, clara y eficaz. Con años de experiencia y una vocación firme por la justicia, nos dedicamos a ofrecer soluciones legales personalizadas, respaldadas por un profundo conocimiento del Derecho y un compromiso absoluto con la verdad y la ética profesional. Nuestra prioridad es escucharte, entender tu situación y acompañarte con responsabilidad en cada paso del camino legal.

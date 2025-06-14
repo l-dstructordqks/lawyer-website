@@ -13,22 +13,29 @@ import Contactenos from './components/pages/Contactenos.jsx'
 import Footer from './components/Footer.jsx'
 import NavBarGa from './components/NavBarGa.jsx'
 
-import { generateServicesSection } from './utils/functions'
+//import { generateServicesSection } from './utils/functions'
+import { serviciosLegales } from './utils/services1.js'
 
 function App() {
-  const [serviceArr, setServiceArr] = useState(null)
-  const [scrollToService, setScrollToService] = useState(false)
+  const [selectedArea, setSelectedArea] = useState(serviciosLegales[0].area); // por defecto la primera
 
-  function showService(e) {
+  /*const [serviceArr, setServiceArr] = useState(null)*/
+  //const [scrollToService, setScrollToService] = useState(false)
+
+  /*function showService(e) {
     let service = generateServicesSection(e.target.id)
     setServiceArr(service)
 
     //using useEffect to improve the behavior of the scroll
     setScrollToService(true)
-  }
+  }*/
   //const [ navStyle, setNavStyle ] = useState( null )
   
+  const handleAreas = (area) => {
+    setSelectedArea(area)
+  }
   //FIXING SCROLL
+  /*
   useEffect(() => {
     if(scrollToService && serviceArr) {
       const section = document.getElementById('service_section')
@@ -41,7 +48,7 @@ function App() {
         setScrollToService(false)
       }, 100)
     }
-  }, [serviceArr, scrollToService])
+  }, [serviceArr, scrollToService])*/
 
   return (
     <>
@@ -51,7 +58,7 @@ function App() {
         <Routes>
           <Route index element={<Home />}/>
           <Route path="nosotros" element={<Nosotros />}/>
-          <Route path="servicios" element={<Servicios showService={showService} serviceArr={serviceArr}/>}/>
+          <Route path="servicios" element={<Servicios handleAreas={handleAreas} selectedArea={selectedArea}/>}/>
           <Route path="contactenos" element={<Contactenos />}/>
         </Routes>
       </main>

@@ -26,16 +26,22 @@ export default function NavBarGa() {
         }
     }, [])
   return (
-    <div id='nav' className={'flex fixed z-11 w-full py-6 sm:py-7 px-9 sm:px-12 justify-between' + (scrolled ? ' bg-gray-900 text-white' : ' bg-transparent') + ' text-white duration-500 items-center'}>
-      <NavLink to="/" end><h1 className='font-bold text-3xl'>JESUS SIDERAL L.C.</h1></NavLink>
-      <nav className='hidden sm:flex gap-5 lg:text-lg text-white'>
+    <div id='nav' className={'flex fixed z-11 w-full py-2 sm:py-3 px-9 sm:px-12 justify-between' + (scrolled ? ' bg-gray-900 text-white' : ' bg-transparent') + ' text-white duration-500 items-center'}>
+      <NavLink to="/" end>
+      <div className='flex items-center justify-center align-center gap-1 h-[60px] sm:h-[70px] lg:h-[75px] lg:pl-2'>
+        <img className='h-full w-auto object-contain max-h-[90%]' src="/logoimagen.png" alt="" />
+        <img className='h-full w-auto object-contain' src="/logotexto.png" alt="logo" />
+      </div>
+      
+      </NavLink>
+      <nav className='hidden md:flex gap-5 lg:text-lg text-white'>
         <NavLink to="/" className='hover:font-bold hover:text-amber-400 duration-300' end><h3 className='lg:px-2 uppercase font-semibold'>Inicio</h3></NavLink>
         <NavLink to="/nosotros" end className='hover:font-bold hover:text-amber-400 duration-300'><h3 className='lg:px-2 uppercase font-semibold'>Nosotros</h3></NavLink>
         <NavLink to="/servicios" end className='hover:font-bold hover:text-amber-400 duration-300'><h3 className='lg:px-2 uppercase font-semibold'>Servicios</h3></NavLink>
         <NavLink to="/contactenos" end className='hover:font-bold hover:text-amber-400 duration-300'><h3 className='lg:px-2 uppercase font-semibold'>Contacto</h3></NavLink>
       </nav>
       
-      <button onClick={() => setToggleMenu(true)} className='sm:hidden'>
+      <button onClick={() => setToggleMenu(true)} className='md:hidden'>
         <i class="fa-solid fa-bars"></i>
       </button>
       
